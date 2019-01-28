@@ -40,7 +40,7 @@ class NeuralNetwork(object):
         final_outputs = final_inputs
         return final_outputs
 
-iterations = 3500
-learning_rate = 0.5
-hidden_nodes = 30
+iterations = 5000
+learning_rate = 0.9
+hidden_nodes = 10
 output_nodes = 1
